@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+
+.botaovoltar{
+    margin-top: 25px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 25%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 60px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.personalidadetitulo{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 60px;
+    border: 5px solid red;
+}
+
+.personalidadetitulo h1{
+    font-size: 40px;
+}
+
+.personalidadeconteudo{
+    width: 100%;
+    height: 484px;
+    border: 5px solid red;
+}
+
+.personalidadetexto{
+    height: 100%;
+    width: 70%;
+    float: left;
+    border: 5px solid red;
+    padding: 40px;
+}
+
+.personalidadeimagem{
+    height: 100%;
+    width: 30%;
+    float: left;
+    border: 5px solid red;
+}
+
+.imagem1{
+    border: 5px solid red;
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: green;
+    background-image: url("");
+    background-size: cover;
+}
+
+.imagem2{
+    border: 5px solid red;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    display: inline-block;
+    background-image: url("");
+    background-size: cover;
+}
+
+.imagem3{
+    border: 5px solid red;
+    width: 100%;
+    height: 50%;
+    background-color: gray;
+    margin-top: -4px;
+    background-image: url("");
+    background-image: cover;
+    background-image: url("");
+    background-size: cover;
+}
